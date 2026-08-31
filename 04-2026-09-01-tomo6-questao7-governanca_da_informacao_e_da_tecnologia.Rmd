@@ -1,0 +1,19 @@
+# Revisão Governança da Informação e da Tecnologia
+
+## Questão 7 (Governança de TI - Alinhamento Estratégico)
+
+### Conteúdo: 
+
+Questão sobre o arranjo decisório e a comunicação de novas demandas de negócios para a área de TI (Relação de Asserções I e II)
+
+### Resposta:
+Alternativa D (Asserção I é falsa, e a II é verdadeira)
+
+### Justificativa: 
+
+Criar um comitê de decisões composto exclusivamente por pessoal de TI (Asserção I) é falso, pois impede a integração e o alinhamento com o negócio
+A Asserção II é verdadeira porque a falta de envolvimento da TI no negócio compromete a governança.
+
+
+
+

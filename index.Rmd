@@ -1,0 +1,89 @@
+---
+title: "GTI - Gestão e Análise de Dados"
+author: "Professor Miguél Suares"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+url: your book url like https://bookdown.org/yihui/bookdown
+cover-image: images/cover.jpg
+description: |
+  Revisão ENADE 2026 GTI
+link-citations: yes
+github-repo: miguel7penteado/2026-2-revisao-gti-enade
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plantuml)
+
+
+# Detectar o sistema operacional
+so <- Sys.info()[["sysname"]]
+
+if (so == "Linux")
+{
+  plantumlOptions(jar_path = "/usr/share/java/plantuml.jar")  
+}else 
+  if (so == "Windows") 
+  {
+    plantumlOptions(jar_path = "C:/PROGRA~1/COMMON~1/Oracle/Java/libs/plantuml-1.2025.4.jar")
+  }else
+  {
+    print(paste("Sistema não reconhecido:", so))
+  }
+
+
+knitr::knit_engines$set(plantuml = function(options)
+{
+    code <- paste(options$code, collapse = "\n")
+  
+  if (is.null(options$plantuml.path)) 
+  {
+    path <-  "."
+  } else
+    {
+      path <- options$plantuml.path
+    }
+  
+  dir.create(path, showWarnings = FALSE, recursive = TRUE)
+  fig <- paste0(options$label, ".", "svg")
+  fig <- file.path(path, fig)
+  if (options$eval) plot(x = plantuml(code), vector=FALSE, file=fig)
+  knitr::engine_output(options, out = list(knitr::include_graphics(fig)))
+})
+```
+
+# Sobre estas anotações {.unnumbered}
+
+—————————————————————————————————————————————
+
+## Calendário das aulas {.unnumbered}
+
+—————————————————————————————————————————————
+
+##### AGOSTO DE 2026 {.unnumbered}
+
+| Data | Dia da Semana | Revisão | Conteúdo |
+| --- | --- | --- | --- |
+| 11/08/2026 | Terça-Feira | Revisão 01 | tomo5-questao2 gestao e analise de dados |
+| 18/08/2026 | Terça-Feira | Revisão 02 | tomo5-questao7 governanca da informacao e da tecnologia |
+| 25/08/2026 | Terça-Feira | Revisão 03 | tomo6-questao2 gestao agil de projetos |
+
+##### SETEMBRO DE 2026 {.unnumbered}
+
+| Data | Dia da Semana | Revisão | Conteúdo |
+| --- | --- | --- | --- |
+| 01/09/2026 | Terça-Feira | Revisão 04 | tomo6-questao7 governanca da informacao e da tecnologia |
+| 08/09/2026 | Terça-Feira | Revisão 05 | tomo7-questao2 gestao da seguranca da informacao |
+| 15/09/2026 | Terça-Feira | Revisão 06 | tomo7-questao7 governanca da informacao e da tecnologia |
+| 22/09/2026 | Terça-Feira | NP1 | PROVA |
+| 29/09/2026 | Terça-Feira | Revisão 07 | tomo8-questao2 gestao e analise de dados |
+
+##### OUTUBRO DE 2026 {.unnumbered}
+
+| Data | Dia da Semana | Revisão | Conteúdo |
+| --- | --- | --- | --- |
+| 06/10/2026 | Terça-Feira | Revisão 08 | tomo8-questao7 computacao em nuvem aplicada aos negocios |
+| 13/10/2026 | Terça-Feira | Revisão 09 | tomo9-questao1 gestao agil de projetos |
+| 20/10/2026 | Terça-Feira | Revisão 10 | tomo9-questao5 gestao agil de projetos |

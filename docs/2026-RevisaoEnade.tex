@@ -1,0 +1,262 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{booktabs}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={GTI - Gestão e Análise de Dados},
+  pdfauthor={Professor Miguél Suares},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{GTI - Gestão e Análise de Dados}
+\author{Professor Miguél Suares}
+\date{2026-08-31}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter*{Sobre estas anotações}\label{sobre-estas-anotauxe7uxf5es}
+\addcontentsline{toc}{chapter}{Sobre estas anotações}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+\section*{Calendário das aulas}\label{calenduxe1rio-das-aulas}
+\addcontentsline{toc}{section}{Calendário das aulas}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+\paragraph*{AGOSTO DE 2026}\label{agosto-de-2026}
+\addcontentsline{toc}{paragraph}{AGOSTO DE 2026}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dia da Semana
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Revisão
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Conteúdo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+11/08/2026 & Terça-Feira & Revisão 01 & tomo5-questao2 gestao e analise de dados \\
+18/08/2026 & Terça-Feira & Revisão 02 & tomo5-questao7 governanca da informacao e da tecnologia \\
+25/08/2026 & Terça-Feira & Revisão 03 & tomo6-questao2 gestao agil de projetos \\
+\end{longtable}
+
+\paragraph*{SETEMBRO DE 2026}\label{setembro-de-2026}
+\addcontentsline{toc}{paragraph}{SETEMBRO DE 2026}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dia da Semana
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Revisão
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Conteúdo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+01/09/2026 & Terça-Feira & Revisão 04 & tomo6-questao7 governanca da informacao e da tecnologia \\
+08/09/2026 & Terça-Feira & Revisão 05 & tomo7-questao2 gestao da seguranca da informacao \\
+15/09/2026 & Terça-Feira & Revisão 06 & tomo7-questao7 governanca da informacao e da tecnologia \\
+22/09/2026 & Terça-Feira & NP1 & PROVA \\
+29/09/2026 & Terça-Feira & Revisão 07 & tomo8-questao2 gestao e analise de dados \\
+\end{longtable}
+
+\paragraph*{OUTUBRO DE 2026}\label{outubro-de-2026}
+\addcontentsline{toc}{paragraph}{OUTUBRO DE 2026}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Data
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dia da Semana
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Revisão
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Conteúdo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+06/10/2026 & Terça-Feira & Revisão 08 & tomo8-questao7 computacao em nuvem aplicada aos negocios \\
+13/10/2026 & Terça-Feira & Revisão 09 & tomo9-questao1 gestao agil de projetos \\
+20/10/2026 & Terça-Feira & Revisão 10 & tomo9-questao5 gestao agil de projetos \\
+\end{longtable}
+
+\chapter{Revisão Gestão e Análise de Dados}\label{revisuxe3o-gestuxe3o-e-anuxe1lise-de-dados}
+
+\section{Questão 2 (Banco de Dados - Notação Peter Chen)}\label{questuxe3o-2-banco-de-dados---notauxe7uxe3o-peter-chen}
+
+\subsection{Conteúdo:}\label{conteuxfado}
+
+Enunciado sobre a modelagem de uma planilha de controle de clientes, pedidos e produtos utilizando a notação de Peter Chen e regras de normalização.
+
+\subsection{Gabarito:}\label{gabarito}
+
+Alternativa E
+
+\subsection{Justificativa:}\label{justificativa}
+
+A alternativa E modela corretamente as relações e cardinalidades entre as entidades (Cliente faz Pedidos {[}1:N{]}; Pedido possui Itens Pedido {[}1:N{]}; Item Pedido possui Produto {[}N:1{]})
+
+\chapter{Revisão Governança da Informação e da Tecnologia}\label{revisuxe3o-governanuxe7a-da-informauxe7uxe3o-e-da-tecnologia}
+
+\section{Questão 7 (ITIL - Melhoria Continuada de Serviço)}\label{questuxe3o-7-itil---melhoria-continuada-de-serviuxe7o}
+
+\subsection{Conteúdo:}\label{conteuxfado-1}
+
+Pergunta sobre a fase do Ciclo de Vida do Serviço do ITIL focada na melhoria continuada
+
+\subsection{Resposta:}\label{resposta}
+
+Alternativa B
+
+\subsection{Justificativa:}\label{justificativa-1}
+
+A Melhoria Continuada do Serviço do ITIL orienta sobre o aprimoramento da qualidade do serviço por meio de práticas de gerenciamento de qualidade, visando metas de eficiência operacional e continuidade
+
+\chapter{Revisão Gestão Ágil de Projetos}\label{revisuxe3o-gestuxe3o-uxe1gil-de-projetos}
+
+\section{Questão 2 (Liderança em Projetos de TI)}\label{questuxe3o-2-lideranuxe7a-em-projetos-de-ti}
+
+\subsection{Conteúdo:}\label{conteuxfado-2}
+
+Enunciado sobre as definições de liderança, habilidades interpessoais e eficácia de equipes
+
+\subsection{Resposta}\label{resposta-1}
+
+Alternativa A
+
+\subsection{Justificativa:}\label{justificativa-2}
+
+Os gerentes de projetos devem priorizar o desenvolvimento de habilidades interpessoais (liderança, comunicação, trabalho em equipe) nos membros da equipe, pois são essenciais para o sucesso e alcance estratégico
+
+\chapter{Revisão Governança da Informação e da Tecnologia}\label{revisuxe3o-governanuxe7a-da-informauxe7uxe3o-e-da-tecnologia-1}
+
+\section{Questão 7 (Governança de TI - Alinhamento Estratégico)}\label{questuxe3o-7-governanuxe7a-de-ti---alinhamento-estratuxe9gico}
+
+\subsection{Conteúdo:}\label{conteuxfado-3}
+
+Questão sobre o arranjo decisório e a comunicação de novas demandas de negócios para a área de TI (Relação de Asserções I e II)
+
+\subsection{Resposta:}\label{resposta-2}
+
+Alternativa D (Asserção I é falsa, e a II é verdadeira)
+
+\subsection{Justificativa:}\label{justificativa-3}
+
+Criar um comitê de decisões composto exclusivamente por pessoal de TI (Asserção I) é falso, pois impede a integração e o alinhamento com o negócio
+A Asserção II é verdadeira porque a falta de envolvimento da TI no negócio compromete a governança.
+
+\chapter{Revisão Gestão da Segurança da Informação}\label{revisuxe3o-gestuxe3o-da-seguranuxe7a-da-informauxe7uxe3o}
+
+\chapter{Revisão Governança da Informação e da Tecnologia}\label{revisuxe3o-governanuxe7a-da-informauxe7uxe3o-e-da-tecnologia-2}
+
+\chapter{Revisão Gestão e Análise de Dados}\label{revisuxe3o-gestuxe3o-e-anuxe1lise-de-dados-1}
+
+\chapter{Revisão Computação em Núvem Aplicada aos Negócios}\label{revisuxe3o-computauxe7uxe3o-em-nuxfavem-aplicada-aos-neguxf3cios}
+
+\chapter{Revisão Gestão Ágil de Projetos}\label{revisuxe3o-gestuxe3o-uxe1gil-de-projetos-1}
+
+\chapter{Revisão Gestão Ágil de Projetos}\label{revisuxe3o-gestuxe3o-uxe1gil-de-projetos-2}
+
+\bibliography{book.bib}
+
+\end{document}

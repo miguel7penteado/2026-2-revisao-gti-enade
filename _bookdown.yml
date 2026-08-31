@@ -1,0 +1,21 @@
+output_dir: "docs"
+book_filename: "2026-RevisaoEnade"
+delete_merged_file: true
+rmd_files: [
+            "index.Rmd",
+            "01-2026-08-11-tomo5-questao2-gestao_e_analise_de_dados.Rmd",
+            "02-2026-08-18-tomo5-questao7-governanca_da_informacao_e_da_tecnologia.Rmd",
+            "03-2026-08-25-tomo6-questao2-gestao_agil_de_projetos.Rmd",
+            "04-2026-09-01-tomo6-questao7-governanca_da_informacao_e_da_tecnologia.Rmd",
+            "05-2026-09-08-tomo7-questao2-gestao_da_seguranca_da_informacao.Rmd",
+            "06-2026-09-15-tomo7-questao7-governanca_da_informacao_e_da_tecnologia.Rmd",
+            "07-2026-09-29-tomo8-questao2-gestao_e_analise_de_dados.Rmd",
+            "08-2026-10-06-tomo8-questao7-computacao_em_nuvem_aplicada_aos_negocios.Rmd",
+            "09-2026-10-13-tomo9-questao1-gestao_agil_de_projetos.Rmd",
+            "10-2026-10-20-tomo9-questao5-gestao_agil_de_projetos.Rmd"
+]
+
+language:
+  ui:
+    chapter_name: "Capítulo "
+

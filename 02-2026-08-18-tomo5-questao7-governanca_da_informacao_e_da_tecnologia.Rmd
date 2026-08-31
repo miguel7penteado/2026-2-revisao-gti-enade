@@ -1,0 +1,15 @@
+# Revisão Governança da Informação e da Tecnologia
+
+## Questão 7 (ITIL - Melhoria Continuada de Serviço)
+
+### Conteúdo: 
+Pergunta sobre a fase do Ciclo de Vida do Serviço do ITIL focada na melhoria continuada
+
+### Resposta:
+
+Alternativa B
+
+
+### Justificativa: 
+A Melhoria Continuada do Serviço do ITIL orienta sobre o aprimoramento da qualidade do serviço por meio de práticas de gerenciamento de qualidade, visando metas de eficiência operacional e continuidade
+

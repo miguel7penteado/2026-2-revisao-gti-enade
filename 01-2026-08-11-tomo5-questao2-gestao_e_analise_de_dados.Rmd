@@ -1,0 +1,13 @@
+# Revisão Gestão e Análise de Dados
+
+## Questão 2 (Banco de Dados - Notação Peter Chen)
+
+### Conteúdo: 
+Enunciado sobre a modelagem de uma planilha de controle de clientes, pedidos e produtos utilizando a notação de Peter Chen e regras de normalização.
+
+### Gabarito: 
+Alternativa E
+
+### Justificativa: 
+A alternativa E modela corretamente as relações e cardinalidades entre as entidades (Cliente faz Pedidos [1:N]; Pedido possui Itens Pedido [1:N]; Item Pedido possui Produto [N:1])
+

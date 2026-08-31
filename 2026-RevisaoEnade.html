@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Professor Miguél Suares" />
+  <meta name="dcterms.date" content="2026-08-31" />
+  <title>GTI - Gestão e Análise de Dados</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="2026-RevisaoEnade_files/reveal.js-4.2.1/dist/reset.css">
+  <link rel="stylesheet" href="2026-RevisaoEnade_files/reveal.js-4.2.1/dist/reveal.css">
+
+  <style type="text/css">
+    /* CSS from pandoc style.html() */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+                  </style>
+
+  <link rel="stylesheet" href="2026-RevisaoEnade_files/reveal.js-4.2.1/dist/theme/simple.css" id="theme">
+
+  <link rel="stylesheet" href="2026-RevisaoEnade_files/reveal.js-4.2.1/plugin/chalkboard/style.css">
+  <link rel="stylesheet" href="2026-RevisaoEnade_files/reveal.js-4.2.1/plugin/customcontrols/style.css">
+
+  <style type="text/css">
+  /* some tweaks to reveal css */
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+  </style>
+
+    <script src="2026-RevisaoEnade_files/header-attrs-2.31/header-attrs.js"></script>
+    <link href="2026-RevisaoEnade_files/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+    <link href="2026-RevisaoEnade_files/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">GTI - Gestão e Análise de Dados</h1>
+  <h2 class="author">Professor Miguél Suares</h2>
+  <h3 class="date">2026-08-31</h3>
+</section>
+
+<section>
+<section id="sobre-estas-anotações"
+class="title-slide slide level1 unnumbered">
+<h1 class="unnumbered">Sobre estas anotações</h1>
+<p>—————————————————————————————————————————————</p>
+</section>
+<section id="calendário-das-aulas" class="slide level2 unnumbered">
+<h2 class="unnumbered">Calendário das aulas</h2>
+<p>—————————————————————————————————————————————</p>
+<h5 class="unnumbered" id="agosto-de-2026">AGOSTO DE 2026</h5>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data</th>
+<th>Dia da Semana</th>
+<th>Revisão</th>
+<th>Conteúdo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11/08/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 01</td>
+<td>tomo5-questao2 gestao e analise de dados</td>
+</tr>
+<tr class="even">
+<td>18/08/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 02</td>
+<td>tomo5-questao7 governanca da informacao e da tecnologia</td>
+</tr>
+<tr class="odd">
+<td>25/08/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 03</td>
+<td>tomo6-questao2 gestao agil de projetos</td>
+</tr>
+</tbody>
+</table>
+<h5 class="unnumbered" id="setembro-de-2026">SETEMBRO DE 2026</h5>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data</th>
+<th>Dia da Semana</th>
+<th>Revisão</th>
+<th>Conteúdo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01/09/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 04</td>
+<td>tomo6-questao7 governanca da informacao e da tecnologia</td>
+</tr>
+<tr class="even">
+<td>08/09/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 05</td>
+<td>tomo7-questao2 gestao da seguranca da informacao</td>
+</tr>
+<tr class="odd">
+<td>15/09/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 06</td>
+<td>tomo7-questao7 governanca da informacao e da tecnologia</td>
+</tr>
+<tr class="even">
+<td>22/09/2026</td>
+<td>Terça-Feira</td>
+<td>NP1</td>
+<td>PROVA</td>
+</tr>
+<tr class="odd">
+<td>29/09/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 07</td>
+<td>tomo8-questao2 gestao e analise de dados</td>
+</tr>
+</tbody>
+</table>
+<h5 class="unnumbered" id="outubro-de-2026">OUTUBRO DE 2026</h5>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data</th>
+<th>Dia da Semana</th>
+<th>Revisão</th>
+<th>Conteúdo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>06/10/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 08</td>
+<td>tomo8-questao7 computacao em nuvem aplicada aos negocios</td>
+</tr>
+<tr class="even">
+<td>13/10/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 09</td>
+<td>tomo9-questao1 gestao agil de projetos</td>
+</tr>
+<tr class="odd">
+<td>20/10/2026</td>
+<td>Terça-Feira</td>
+<td>Revisão 10</td>
+<td>tomo9-questao5 gestao agil de projetos</td>
+</tr>
+</tbody>
+</table>
+<!--chapter:end:index.Rmd-->
+</section></section>
+<section>
+<section id="revisão-gestão-e-análise-de-dados"
+class="title-slide slide level1">
+<h1>Revisão Gestão e Análise de Dados</h1>
+
+</section>
+<section id="questão-2-banco-de-dados---notação-peter-chen"
+class="slide level2">
+<h2>Questão 2 (Banco de Dados - Notação Peter Chen)</h2>
+<h3 id="conteúdo">Conteúdo:</h3>
+<p>Enunciado sobre a modelagem de uma planilha de controle de clientes,
+pedidos e produtos utilizando a notação de Peter Chen e regras de
+normalização.</p>
+<h3 id="gabarito">Gabarito:</h3>
+<p>Alternativa E</p>
+<h3 id="justificativa">Justificativa:</h3>
+<p>A alternativa E modela corretamente as relações e cardinalidades
+entre as entidades (Cliente faz Pedidos [1:N]; Pedido possui Itens
+Pedido [1:N]; Item Pedido possui Produto [N:1])</p>
+<!--chapter:end:01-2026-08-11-tomo5-questao2-gestao_e_analise_de_dados.Rmd-->
+</section></section>
+<section>
+<section id="revisão-governança-da-informação-e-da-tecnologia"
+class="title-slide slide level1">
+<h1>Revisão Governança da Informação e da Tecnologia</h1>
+
+</section>
+<section id="questão-7-itil---melhoria-continuada-de-serviço"
+class="slide level2">
+<h2>Questão 7 (ITIL - Melhoria Continuada de Serviço)</h2>
+<h3 id="conteúdo-1">Conteúdo:</h3>
+<p>Pergunta sobre a fase do Ciclo de Vida do Serviço do ITIL focada na
+melhoria continuada</p>
+<h3 id="resposta">Resposta:</h3>
+<p>Alternativa B</p>
+<h3 id="justificativa-1">Justificativa:</h3>
+<p>A Melhoria Continuada do Serviço do ITIL orienta sobre o
+aprimoramento da qualidade do serviço por meio de práticas de
+gerenciamento de qualidade, visando metas de eficiência operacional e
+continuidade</p>
+<!--chapter:end:02-2026-08-18-tomo5-questao7-governanca_da_informacao_e_da_tecnologia.Rmd-->
+</section></section>
+<section>
+<section id="revisão-gestão-ágil-de-projetos"
+class="title-slide slide level1">
+<h1>Revisão Gestão Ágil de Projetos</h1>
+
+</section>
+<section id="questão-2-liderança-em-projetos-de-ti"
+class="slide level2">
+<h2>Questão 2 (Liderança em Projetos de TI)</h2>
+<h3 id="conteúdo-2">Conteúdo:</h3>
+<p>Enunciado sobre as definições de liderança, habilidades interpessoais
+e eficácia de equipes</p>
+<h3 id="resposta-1">Resposta</h3>
+<p>Alternativa A</p>
+<h3 id="justificativa-2">Justificativa:</h3>
+<p>Os gerentes de projetos devem priorizar o desenvolvimento de
+habilidades interpessoais (liderança, comunicação, trabalho em equipe)
+nos membros da equipe, pois são essenciais para o sucesso e alcance
+estratégico</p>
+<!--chapter:end:03-2026-08-25-tomo6-questao2-gestao_agil_de_projetos.Rmd-->
+</section></section>
+<section>
+<section id="revisão-governança-da-informação-e-da-tecnologia-1"
+class="title-slide slide level1">
+<h1>Revisão Governança da Informação e da Tecnologia</h1>
+
+</section>
+<section id="questão-7-governança-de-ti---alinhamento-estratégico"
+class="slide level2">
+<h2>Questão 7 (Governança de TI - Alinhamento Estratégico)</h2>
+<h3 id="conteúdo-3">Conteúdo:</h3>
+<p>Questão sobre o arranjo decisório e a comunicação de novas demandas
+de negócios para a área de TI (Relação de Asserções I e II)</p>
+<h3 id="resposta-2">Resposta:</h3>
+<p>Alternativa D (Asserção I é falsa, e a II é verdadeira)</p>
+<h3 id="justificativa-3">Justificativa:</h3>
+<p>Criar um comitê de decisões composto exclusivamente por pessoal de TI
+(Asserção I) é falso, pois impede a integração e o alinhamento com o
+negócio A Asserção II é verdadeira porque a falta de envolvimento da TI
+no negócio compromete a governança.</p>
+<!--chapter:end:04-2026-09-01-tomo6-questao7-governanca_da_informacao_e_da_tecnologia.Rmd-->
+</section></section>
+<section id="revisão-gestão-da-segurança-da-informação"
+class="title-slide slide level1">
+<h1>Revisão Gestão da Segurança da Informação</h1>
+<!--chapter:end:05-2026-09-08-tomo7-questao2-gestao_da_seguranca_da_informacao.Rmd-->
+</section>
+
+<section id="revisão-governança-da-informação-e-da-tecnologia-2"
+class="title-slide slide level1">
+<h1>Revisão Governança da Informação e da Tecnologia</h1>
+<!--chapter:end:06-2026-09-15-tomo7-questao7-governanca_da_informacao_e_da_tecnologia.Rmd-->
+</section>
+
+<section id="revisão-gestão-e-análise-de-dados-1"
+class="title-slide slide level1">
+<h1>Revisão Gestão e Análise de Dados</h1>
+<!--chapter:end:07-2026-09-29-tomo8-questao2-gestao_e_analise_de_dados.Rmd-->
+</section>
+
+<section id="revisão-computação-em-núvem-aplicada-aos-negócios"
+class="title-slide slide level1">
+<h1>Revisão Computação em Núvem Aplicada aos Negócios</h1>
+<!--chapter:end:08-2026-10-06-tomo8-questao7-computacao_em_nuvem_aplicada_aos_negocios.Rmd-->
+</section>
+
+<section id="revisão-gestão-ágil-de-projetos-1"
+class="title-slide slide level1">
+<h1>Revisão Gestão Ágil de Projetos</h1>
+<!--chapter:end:09-2026-10-13-tomo9-questao1-gestao_agil_de_projetos.Rmd-->
+</section>
+
+<section id="revisão-gestão-ágil-de-projetos-2"
+class="title-slide slide level1">
+<h1>Revisão Gestão Ágil de Projetos</h1>
+<!--chapter:end:10-2026-10-20-tomo9-questao5-gestao_agil_de_projetos.Rmd-->
+</section>
+    </div>
+  </div>
+
+  <script src="2026-RevisaoEnade_files/reveal.js-4.2.1/dist/reveal.js"></script>
+  
+  <!-- reveal.js plugins -->
+  <script src="2026-RevisaoEnade_files/reveal.js-4.2.1/plugin/menu/menu.js"></script>
+  <script src="2026-RevisaoEnade_files/reveal.js-4.2.1/plugin/chalkboard/plugin.js"></script>
+  <script src="2026-RevisaoEnade_files/reveal.js-4.2.1/plugin/customcontrols/plugin.js"></script>
+  
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+        // Display a presentation progress bar
+        progress: true,
+        // Can be used to limit the contexts in which the slide number appears
+        showSlideNumber: 'all',
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+        // Push each slide change to the browser history
+        // Implies `hash: true`
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+        // The display mode that will be used to show slides
+        display: 'block',
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        menu: {
+          // Configuration from
+          // https://github.com/denehyg/reveal.js-menu#configuration
+          side: 'right',
+   
+   
+    
+    
+    
+    
+    
+    
+    
+ 
+ 
+ 
+ 
+ 
+          // option not supported for change
+          loadIcons: false, // using rmarkdown provided own.
+          custom: false,
+          themes: false,
+          // themesPath: 'dist/theme/',
+          transitions: false
+        },
+
+
+        chalkboard: {
+          theme: 'whiteboard',
+        },
+        customcontrols: {
+            controls: [
+            	{ icon: '<i class="fa fa-pen"></i>',
+            	  title: 'Toggle notes canvas (C)',
+            	  action: 'RevealChalkboard.toggleNotesCanvas();'
+            	}
+            ]
+        },
+
+        // Optional reveal.js plugins
+        plugins: [
+          RevealMenu,
+          RevealChalkboard,
+          RevealCustomControls,
+        ]
+      });
+
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
