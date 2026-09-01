@@ -11,7 +11,7 @@ MACHADO, F. N. R. **Banco de Dados: projeto e implementação**. São Paulo: Ér
 A partir das informações do texto, considere que uma empresa mantém o controle de seus pedidos em uma planilha eletrônica, armazenando as informações de clientes, pedidos e produtos conforme a figura a seguir.
 
 | A | B | C | D | E | F | G | H | I | J | K |
-|-------|------|--------|--------|----------|-------|-------|-------|--------|-------|-------|
+|----|----|----|----|----|----|----|----|----|----|----|
 | Cliente | CPF | Endereço | Telefone | Nro. Pedido | Data | Valor Total Pedido | Nro. Item Pedido | Produto | Qtd. | Valor unitário |
 
 Com o crescimento das vendas, a empresa decidiu migrar as informações para um banco de dados e utilizar um sistema para o cadastro dos pedidos. Diante do exposto, assinale a alternativa que apresenta corretamente o diagrama da estrutura lógica do banco de dados a ser implementado na empresa, seguindo regras de normalização.

@@ -13,13 +13,13 @@ HUNTER, R.; WESTERMAN, G. **O verdadeiro valor de TI**. São Paulo: M. Books, 20
 Com base nessa situação, avalie as asserções e a relação proposta entre elas.
 
 |  |  |
-|-----|-------------------------------------------------------------------|
+|----|----|
 | I. | A criação de um comitê composto exclusivamente pelo pessoal da área de TI, com autonomia para tomar as decisões que afetam as demandas por serviços e infraestrutura de TI, seria uma opção acertada. |
 
 **PORQUE**
 
 |  |  |
-|------|------------------------------------------------------------------|
+|----|----|
 | II\. | A empresa possui um arranjo decisório inadequado para suas expectativas; a pouca credibilidade da área de TI e a falta de envolvimento dessa área nas decisões comprometem o alinhamento estratégico entre a TI e o negócio, problema relacionado à governança de TI. |
 
 A respeito dessas asserções, assinale a opção correta.
