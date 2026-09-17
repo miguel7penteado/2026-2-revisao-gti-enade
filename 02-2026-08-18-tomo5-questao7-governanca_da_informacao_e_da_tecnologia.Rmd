@@ -1,6 +1,8 @@
 # Revisão Governança da Informação e da Tecnologia 18/08/2026
 
-## Questão 7 (ITIL - Melhoria Continuada de Serviço)
+## ITIL - Melhoria Continuada de Serviço
+
+#### TOMO 5- Questão 7
 
 Leia o texto a seguir.
 
@@ -22,9 +24,9 @@ d.  orienta sobre como implantar serviços novos e modificados para ambientes op
 
 e.  fornece orientação para o desenvolvimento dos serviços e das práticas de gerenciamento de serviços, propondo mudanças e melhorias necessárias para manter ou agregar valor aos clientes ao longo do ciclo de vida do serviço.
 
-### Resposta:
+### Resposta: 
 
-Alternativa B
+- Alternativa "B"
 
 ### Justificativa:
 

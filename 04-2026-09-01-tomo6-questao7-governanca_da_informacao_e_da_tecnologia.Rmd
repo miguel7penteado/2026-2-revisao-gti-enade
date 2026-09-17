@@ -1,6 +1,8 @@
 # Revisão Governança da Informação e da Tecnologia 01/09/2026
 
-## Questão 7 (Governança de TI - Alinhamento Estratégico)
+## Governança de TI - Alinhamento Estratégico
+
+#### TOMO 6 - Questão 7
 
 Leia o texto a seguir.
 
@@ -36,7 +38,7 @@ E. As asserções I e II são proposições falsas.
 
 ### Resposta:
 
-Alternativa D (Asserção I é falsa, e a II é verdadeira)
+- Alternativa "D" (Asserção I é falsa, e a II é verdadeira)
 
 ### Justificativa:
 

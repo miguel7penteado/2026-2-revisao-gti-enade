@@ -1,6 +1,8 @@
 # Revisão Gestão e Análise de Dados 11/08/2026
 
-## Questão 2 (Banco de Dados - Notação Peter Chen)
+## (Banco de Dados - Notação Peter Chen)
+
+#### TOMO 5- Questão 2
 
 Leia o texto a seguir.
 
@@ -38,9 +40,9 @@ e)
 
 Enunciado sobre a modelagem de uma planilha de controle de clientes, pedidos e produtos utilizando a notação de Peter Chen e regras de normalização.
 
-### Gabarito:
+### Resposta: 
 
-Alternativa E
+- Alternativa "E"
 
 ### Justificativa:
 

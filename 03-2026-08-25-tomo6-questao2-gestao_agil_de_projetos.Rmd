@@ -1,6 +1,8 @@
 # Revisão Gestão Ágil de Projetos 25/08/2026
 
-## Questão 2 (Liderança em Projetos de TI)
+## Liderança em Projetos de TI
+
+#### TOMO 6 - Questão 2
 
 Leia o texto a seguir.
 
@@ -8,7 +10,6 @@ Leia o texto a seguir.
 
 `Pode-se definir liderança como a capacidade de influenciar um grupo para alcançar metas. A origem dessa influência pode ser formal, como a que é conferida por um alto cargo na organização. Como essas posições remetem a um certo grau de autoridade, uma pessoa pode assumir um papel de liderança apenas em função do cargo que ocupa. Nem todos os líderes são administradores e nem todos os executivos são líderes. O fato de a organização conferir a seus executivos alguns direitos formais não lhes assegura a capacidade de liderança eficaz. A liderança não sancionada – aquela capaz de influenciar os outros, que emerge fora da estrutura formal da organização – geralmente é tão importante quanto a influência formal, ou até mais. Em outras palavras, o líder pode surgir naturalmente dentro de um grupo ou por indicação formal. Nesse sentido, uma das habilidades interpessoais cujo valor é alto para as organizações é a liderança.`
 
-ROBBINS, S. P. **Comportamento organizacional**. 11. ed. São Paulo: Prentice Hall, 2009 (com adaptações).
 
 Considerando essas informações, assinale a opção em que se caracteriza corretamente a liderança na área de projetos.
 
@@ -47,3 +48,8 @@ JUSTIFICATIVA. Mesmo não sendo diretamente responsável pela execução do trab
 E - Alternativa incorreta.
 
 JUSTIFICATIVA. Profissionais com perfis mais introspectivos não precisam ter, necessariamente, problemas de comunicação. Além disso, dependendo da natureza do trabalho e da área, é comum que a maioria dos profissionais tenha um perfil mais introspectivo. Adicionalmente, é possível que suas habilidades de comunicação sejam adequadas ou até mesmo muito boas. O tipo de liderança e o perfil do líder podem ser diferentes para projetos e áreas de atuação distintas. Assim, a introspecção pode ser adequada em alguns contextos e inadequada em outros.
+
+## Referências:
+
+ROBBINS, S. P. **Comportamento organizacional**. 11. ed. São Paulo: Prentice Hall, 2009 (com adaptações).
+

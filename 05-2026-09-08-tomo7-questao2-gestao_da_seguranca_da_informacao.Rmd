@@ -1,6 +1,8 @@
 # Revisão Gestão da Segurança da Informação - 08/09/2026
 
-## Questão 7 (Governança de TI - Alinhamento Estratégico)
+## Governança de TI - Alinhamento Estratégico
+
+#### TOMO 6 - Questão 7
 
 Leia o texto a seguir. 
 
@@ -43,7 +45,9 @@ No quesito operação, essa norma define que a organização deve planejar, impl
 
 Na **ABNT NBR ISO/IEC 27001:2022**, o Anexo A apresenta **controles de referência** para a segurança da informação. A **ABNT NBR ISO/IEC 27002:2022** detalha esses controles. Entre eles, o **controle 5.10** trata do **uso aceitável da informação e de outros ativos associados**, estabelecendo que regras de uso aceitável e **procedimentos** de manuseio devem ser **identificados**, **documentados** e **implementados**.
 
-Resposta: Alternativa "A"
+### Resposta:
+
+- Alternativa "A"
 
 ## Referências Bibliográficas:
 

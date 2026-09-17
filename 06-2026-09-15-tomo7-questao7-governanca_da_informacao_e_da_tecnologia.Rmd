@@ -1,1 +1,58 @@
-# Revisão Governança da Informação e da Tecnologia
+# Revisão Governança da Informação e da Tecnologia - 08/09/2026
+
+## Governança de TI - Alinhamento Estratégico
+
+#### TOMO 7 - Questão 7
+
+Leia o texto a seguir.
+
+*O Information Technology Infrastructure Library (ITIL) compreende um conjunto de boas práticas que buscam detalhar o gerenciamento do serviço de TI, por meio do alinhamento entre a tecnologia da informação e as necessidades do negócio. Surge no Reino Unido e Holanda na década de 1980, diante da insatisfação do governo britânico quanto ao nível de serviços de TI, voltado para a descrição de um modelo operacional para a entrega de produtos e serviços habilitados por tecnologia.*
+
+
+
+A respeito dos benefícios que o ITIL pode oferecer às organizações, avalie as afirmativas.
+
+I.  **O ITIL é uma metodologia prescritiva que define detalhadamente o que se deve fazer, adaptando-se às necessidades organizacionais.**
+
+II. **O ITIL gera transparência quanto à prestação de serviços de TI, de forma a possibilitar o entendimento comum entre a área de TI e de negócios.**
+
+III. **O ITIL permite a identificação de pontos falhos e características de melhoria contínua.**
+
+IV. **O ITIL melhora a qualidade dos serviços prestados e gera valor para o cliente.**
+
++----+-------------------------------------+
+|    | É correto apenas o que se afirma em |
++====+=====================================+
+| A) | I e II.                             |
++----+-------------------------------------+
+| B) | I e III.                            |
++----+-------------------------------------+
+| C) | II e IV.                            |
++----+-------------------------------------+
+| D) | I, III e IV.                        |
++----+-------------------------------------+
+| E) | II, III e IV.                       |
++----+-------------------------------------+
+
+
+**Avaliação da Questão: Governança de TI - Alinhamento Estratégico**
+
+I - Afirmativa incorreta.
+JUSTIFICATIVA. O ITIL é um conjunto de práticas destinadas ao bom gerenciamento de serviços habilitados pela tecnologia da informação.
+
+II - Afirmativa correta.
+JUSTIFICATIVA. O ITIL é um conjunto de práticas recomendadas para dar suporte à empresa na obtenção de valor da TI e que alinha os serviços de TI à estratégia de negócios.
+
+III - Afirmativa correta.
+JUSTIFICATIVA. O ITIL orienta o gerenciamento de serviços de TI e incorpora a melhoria contínua como parte do sistema de valor de serviço. Por isso, contribui para identificar falhas, gargalos e oportunidades de melhoria na prestação de serviços de TI.
+
+IV - Afirmativa correta.
+JUSTIFICATIVA. O ITIL é um framework destinado à melhoria da prestação de serviços. Pelo seu uso, é possível propor mudanças para obter melhores resultados e agregar valor aos serviços prestados.
+
+
+### Resposta: 
+
+- Alternativa "E"
+
+## Referências:
+ROSA, F. *Avaliação sobre as melhores práticas e estudo de migração para ITIL V3*. Disponível em [http://repositorio.roca.utfpr.edu.br/jspui/bitstream/1/636/1/MD_COADS_2011_2_01.pdf](http://repositorio.roca.utfpr.edu.br/jspui/bitstream/1/636/1/MD_COADS_2011_2_01.pdf). Acesso em 20 jul. 2020 (com adaptações).
