@@ -6,8 +6,9 @@
 
 Leia o texto a seguir.
 
-*O Information Technology Infrastructure Library (ITIL) compreende um conjunto de boas práticas que buscam detalhar o gerenciamento do serviço de TI, por meio do alinhamento entre a tecnologia da informação e as necessidades do negócio. Surge no Reino Unido e Holanda na década de 1980, diante da insatisfação do governo britânico quanto ao nível de serviços de TI, voltado para a descrição de um modelo operacional para a entrega de produtos e serviços habilitados por tecnologia.*
-
+::: {.alert .alert-info}
+O Information Technology Infrastructure Library (ITIL) compreende um conjunto de boas práticas que buscam detalhar o gerenciamento do serviço de TI, por meio do alinhamento entre a tecnologia da informação e as necessidades do negócio. Surge no Reino Unido e Holanda na década de 1980, diante da insatisfação do governo britânico quanto ao nível de serviços de TI, voltado para a descrição de um modelo operacional para a entrega de produtos e serviços habilitados por tecnologia.
+:::
 
 
 A respeito dos benefícios que o ITIL pode oferecer às organizações, avalie as afirmativas.

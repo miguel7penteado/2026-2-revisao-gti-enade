@@ -8,7 +8,10 @@ Leia o texto a seguir.
 
 ![](images/clipboard-455691049.png)
 
-`Pode-se definir liderança como a capacidade de influenciar um grupo para alcançar metas. A origem dessa influência pode ser formal, como a que é conferida por um alto cargo na organização. Como essas posições remetem a um certo grau de autoridade, uma pessoa pode assumir um papel de liderança apenas em função do cargo que ocupa. Nem todos os líderes são administradores e nem todos os executivos são líderes. O fato de a organização conferir a seus executivos alguns direitos formais não lhes assegura a capacidade de liderança eficaz. A liderança não sancionada – aquela capaz de influenciar os outros, que emerge fora da estrutura formal da organização – geralmente é tão importante quanto a influência formal, ou até mais. Em outras palavras, o líder pode surgir naturalmente dentro de um grupo ou por indicação formal. Nesse sentido, uma das habilidades interpessoais cujo valor é alto para as organizações é a liderança.`
+::: {.alert .alert-info}
+Pode-se definir liderança como a capacidade de influenciar um grupo para alcançar metas. A origem dessa influência pode ser formal, como a que é conferida por um alto cargo na organização. Como essas posições remetem a um certo grau de autoridade, uma pessoa pode assumir um papel de liderança apenas em função do cargo que ocupa. Nem todos os líderes são administradores e nem todos os executivos são líderes. O fato de a organização conferir a seus executivos alguns direitos formais não lhes assegura a capacidade de liderança eficaz. A liderança não sancionada – aquela capaz de influenciar os outros, que emerge fora da estrutura formal da organização – geralmente é tão importante quanto a influência formal, ou até mais. Em outras palavras, o líder pode surgir naturalmente dentro de um grupo ou por indicação formal. Nesse sentido, uma das habilidades interpessoais cujo valor é alto para as organizações é a liderança.
+:::
+
 
 
 Considerando essas informações, assinale a opção em que se caracteriza corretamente a liderança na área de projetos.

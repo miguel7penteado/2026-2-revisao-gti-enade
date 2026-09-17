@@ -8,7 +8,9 @@ Leia o texto a seguir.
 
 ![](images/clipboard-713891903.png)
 
-`Os serviços de Tecnologia da Informação (TI) podem ser melhorados em relação ao seu Ciclo de Vida do Serviço, no alinhamento do Portfólio de TI com os requerimentos atuais e futuros e com o aumento da maturidade das entregas dos processos em cada Serviço de TI. No Information Technology Infrastructure Library (ITIL), essa melhoria ocorre na etapa de Melhoria Continuada de Serviço.`
+::: {.alert .alert-info}
+Os serviços de Tecnologia da Informação (TI) podem ser melhorados em relação ao seu Ciclo de Vida do Serviço, no alinhamento do Portfólio de TI com os requerimentos atuais e futuros e com o aumento da maturidade das entregas dos processos em cada Serviço de TI. No Information Technology Infrastructure Library (ITIL), essa melhoria ocorre na etapa de Melhoria Continuada de Serviço.
+:::
 
 FREITAS, M. A. S. **Fundamentos do gerenciamento de serviços de TI**. Rio de Janeiro: Brasport, 2013 (com adaptações).
 

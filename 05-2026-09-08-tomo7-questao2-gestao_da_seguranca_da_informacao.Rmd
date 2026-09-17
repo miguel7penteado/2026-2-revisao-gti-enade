@@ -6,7 +6,9 @@
 
 Leia o texto a seguir. 
 
->>> A Política de Segurança é uma declaração que estabelece a hierarquia dos riscos da informação e identifica metas de segurança aceitáveis, assim como mecanismos para atingi-las. Uma das formas de implementá-la é seguir os passos para a certificação ISO 27001, que é uma norma de vigência internacional, cujo objetivo é determinar as diretrizes necessárias para uma gestão de segurança da informação nas organizações, sejam elas especializadas nesse tipo de serviço, sejam aquelas que tenham um setor interno dedicado à proteção de seus dados.
+::: {.alert .alert-info}
+A Política de Segurança é uma declaração que estabelece a hierarquia dos riscos da informação e identifica metas de segurança aceitáveis, assim como mecanismos para atingi-las. Uma das formas de implementá-la é seguir os passos para a certificação ISO 27001, que é uma norma de vigência internacional, cujo objetivo é determinar as diretrizes necessárias para uma gestão de segurança da informação nas organizações, sejam elas especializadas nesse tipo de serviço, sejam aquelas que tenham um setor interno dedicado à proteção de seus dados.
+:::
 
 LAUDON, K. C; LAUDON, J. P. Sistemas de informação gerenciais. 11. ed. São Paulo: Pearson Prentice Hall (com adaptações).
 

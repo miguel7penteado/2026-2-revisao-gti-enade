@@ -6,7 +6,10 @@
 
 Leia o texto a seguir.
 
-`A estrutura lógica global de um banco de dados pode ser expressa graficamente por um diagrama de entidades (representado por retângulos), por relacionamentos (representados por losangos) e pelos atributos de cada entidade ou relacionamento por meio de elipses (notação Peter Chen). A conectividade descreve as restrições no mapeamento das associações existentes entre as ocorrências de entidades em um relacionamento. Os valores de conectividade estão sempre entre um ou muitos em um dos lados do relacionamento.`
+::: {.alert .alert-info}
+A estrutura lógica global de um banco de dados pode ser expressa graficamente por um diagrama de entidades (representado por retângulos), por relacionamentos (representados por losangos) e pelos atributos de cada entidade ou relacionamento por meio de elipses (notação Peter Chen). A conectividade descreve as restrições no mapeamento das associações existentes entre as ocorrências de entidades em um relacionamento. Os valores de conectividade estão sempre entre um ou muitos em um dos lados do relacionamento.:::
+:::
+
 
 MACHADO, F. N. R. **Banco de Dados: projeto e implementação**. São Paulo: Érica, p. 74, 2020 (com adaptações).
 
