@@ -38,6 +38,7 @@ IV. **O ITIL melhora a qualidade dos serviços prestados e gera valor para o cli
 
 **Avaliação da Questão: Governança de TI - Alinhamento Estratégico**
 
+::: {.alert-warning}
 I - Afirmativa incorreta.
 JUSTIFICATIVA. O ITIL é um conjunto de práticas destinadas ao bom gerenciamento de serviços habilitados pela tecnologia da informação.
 
@@ -49,6 +50,7 @@ JUSTIFICATIVA. O ITIL orienta o gerenciamento de serviços de TI e incorpora a m
 
 IV - Afirmativa correta.
 JUSTIFICATIVA. O ITIL é um framework destinado à melhoria da prestação de serviços. Pelo seu uso, é possível propor mudanças para obter melhores resultados e agregar valor aos serviços prestados.
+:::
 
 
 ### Resposta: 

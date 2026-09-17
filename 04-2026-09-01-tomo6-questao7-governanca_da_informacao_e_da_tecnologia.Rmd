@@ -44,6 +44,7 @@ E. As asserções I e II são proposições falsas.
 
 ### Justificativa:
 
+::: {.alert-warning}
 I - Asserção falsa.
 
 JUSTIFICATIVA. A criação de um comitê com membros que pertençam exclusivamente à área de TI não promove a integração entre a área de TI e o restante da empresa. Devemos nos lembrar de que a função principal da governança de TI é alinhar a TI aos negócios, a fim de que a organização alcance seus objetivos estratégicos.
@@ -51,5 +52,4 @@ JUSTIFICATIVA. A criação de um comitê com membros que pertençam exclusivamen
 II\. Asserção verdadeira.
 
 JUSTIFICATIVA. Está claro que o arranjo decisório da empresa é equivocado. A empresa jamais terá seus objetivos alcançados se o lançamento de cada produto for feito sem que a área de TI tenha conhecimento. É improvável imaginar que a área de TI será capaz de atender às necessidades de um novo produto ou de um novo serviço sem ter conhecimento prévio da sua necessidade ou mesmo da sua existência.
-
-Alternativa correta: D.
+:::

@@ -32,6 +32,7 @@ A respeito dessas asserções, assinale a alternativa correta.
 
 **Avaliação da Questão: Política de segurança para a informação**
 
+::: {.alert-warning}
 Semelhante à questão anterior, a presente questão aborda um assunto relativo à segurança da informação. A principal referência normativa para sistemas de gestão de segurança da informação é a **ABNT NBR ISO/IEC 27001:2022**, Versão Corrigida:2023, que estabelece requisitos para o **SGSI**. Para os controles de segurança da informação, a referência complementar é a **ABNT NBR ISO/IEC 27002:2022**.
 
 A **NBR ISO/IEC 27001:2022** fornece às empresas os requisitos para
@@ -46,6 +47,7 @@ um **Sistema de Gestão de Segurança da Informação (SGSI)**. Ela foi desenvol
 No quesito operação, essa norma define que a organização deve planejar, implementar e controlar os processos, os produtos e os serviços necessários, incluindo eventuais mudanças relacionadas ao pessoal e à infraestrutura, além de prover ações destinadas à avaliação e ao tratamento dos seus riscos.
 
 Na **ABNT NBR ISO/IEC 27001:2022**, o Anexo A apresenta **controles de referência** para a segurança da informação. A **ABNT NBR ISO/IEC 27002:2022** detalha esses controles. Entre eles, o **controle 5.10** trata do **uso aceitável da informação e de outros ativos associados**, estabelecendo que regras de uso aceitável e **procedimentos** de manuseio devem ser **identificados**, **documentados** e **implementados**.
+:::
 
 ### Resposta:
 

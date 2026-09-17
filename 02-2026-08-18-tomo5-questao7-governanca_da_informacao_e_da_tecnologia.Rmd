@@ -32,6 +32,7 @@ e.  fornece orientação para o desenvolvimento dos serviços e das práticas de
 
 ### Justificativa:
 
+::: {.alert-warning}
 A - Alternativa incorreta.
 
 JUSTIFICATIVA. A fase do ciclo de vida responsável pelas atividades do dia a dia, que orienta sobre como garantir a entrega e o suporte a serviços de forma eficiente e eficaz em ambientes operacionais gerenciados, é conhecida como operação de serviço.
@@ -53,3 +54,5 @@ de liberação.
 E - Alternativa incorreta.
 
 JUSTIFICATIVA. O desenho de serviços fornece orientação para o desenvolvimento dos serviços e das práticas de gerenciamento de serviços, propondo mudanças e melhorias necessárias para manter ou agregar valor aos clientes ao longo do ciclo de vida do serviço.
+:::
+
