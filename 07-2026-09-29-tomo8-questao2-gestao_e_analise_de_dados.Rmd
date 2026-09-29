@@ -1,1 +1,95 @@
-# Revisão Gestão e Análise de Dados
+# Revisão Gestão e Análise de Dados - - 29/09/2026
+
+#### TOMO 8 - Questão 2
+
+::: {.alert .alert-info}
+Nos algoritmos, os operadores são utilizados para realizar comparações, cálculos, entre outros, conforme exemplificado a seguir.
+
+•	Operadores aritméticos: (*, /, %, +, -)
+•	Operadores relacionais: (<, <=, >, >=, =, <>)
+•	Operadores lógicos: (nao, e, ou)
+
+Considere o pseudocódigo a seguir, cuja função é calcular e apresentar um bônus salarial de 10% apenas aos funcionários que **recebem salários entre `R$1.045,00` a `R$1.544,00`, inclusive**. Para os salários que não estão nesse critério deve ser apresentada apenas uma mensagem que o salário não está nos critérios de bônus.
+
+:::
+
+```
+01: algoritmo “bonus_salarial_1”
+02: var
+03:      salario, bonus : real
+04: inicio
+
+05: 	 leia(salario)
+06: 	 se(______________________________________) entao
+07:       bonus := (salario * 10)/100
+08:       escreva(“Bônus =”, bonus)
+09: 	 senao
+10:       escreva(“O salário não está nos critérios de bônus!”)
+11: 	 fimse
+
+12: fimalgoritmo
+```
+::: {.alert .alert-info}
+Com base nos operadores e na lógica de programação apresentada, assinale a opção que representa a linha 6 na estrutura de decisão do código para atender corretamente aos critérios da tarefa.
+::: 
+
+|    |                                                          |
+|----|----------------------------------------------------------|
+| A. | se( (salario >= 1045.00) e (salario <= 1544.00) ) entao  |
+| B. | se( (salario >= 1045.00) ou (salario <= 1544.00) ) entao |
+| C. | se( (valor >= 1045.00) e (valor <= 1544.00) ) entao      |
+| D. | se( (salario >= 1046.00) ou (salario < 1545.00) ) entao  |
+| E. | se( (valor >= 1046.00) e (valor <= 1545.00) ) entao      |
+
+**Avaliação da Questão: **
+
+::: {.alert-warning}
+
+A – Alternativa correta.
+JUSTIFICATIVA. O texto do enunciado afirma que o bônus se restringe "apenas aos funcionários que recebem salários entre R$1.045,00 a R$1.544,00, inclusive ", ou seja, apenas a salários que são superiores (ou iguais) a R$1.045,00 e inferiores (ou iguais) a R$1.544,00. Observe o termo "inclusive" no texto do enunciado, que indica que os valores extremos (no caso, R$1.045,00 e R$1.544,00) também devem ser incluídos no conjunto de valores com bônus. Dessa forma, um salário de R$1.300,00 deve ter o bônus calculado, enquanto um salário de R$1.800,00 não deve, pois é maior que o valor máximo de R$1.544,00. Observe que um salário de R$900,00, por ser inferior ao valor mínimo de R$1.045,00, também não deve ter o bônus calculado, de acordo com o texto do enunciado. Isso significa que o conjunto de salários que receberão o bônus salarial deve ser dado por duas condições, que devem ser atendidas simultaneamente. Isso é feito utilizando o operador lógico "e".
+A primeira condição corresponde ao limite inferior do conjunto:
+
+(salario >= 1045.00)
+
+A segunda condição é dada pelo limite superior:
+
+(salario <= 1544.00)
+
+Utilizando operador lógico "e" para "conectar" as duas condições, obtemos:
+
+(salario >= 1045.00) e (salario <= 1544.00)
+
+Essa é a condição utilizada pelo comando "se" na alternativa.
+
+
+B e D – Alternativas incorretas.
+JUSTIFICATIVA. Não podemos utilizar o operador lógico "ou" para "conectar" as duas condições. Para compreender o motivo, vamos tomar um exemplo. Considere um salário de R$1.800,00. Esse valor é maior que o limite inferior de ambas as alternativas. Logo, a condição (salario >= 1045.00) seria atendida.
+Lembremos agora da tabela verdade da expressão lógica A OU B.
+
+|     A             |     B             |     A OU B        |
+|-------------------|-------------------|-------------------|
+|     Falso         |     Falso         |     Falso         |
+|     Falso         |     Verdadeiro    |     Verdadeiro    |
+|     Verdadeiro    |     Falso         |     Verdadeiro    |
+|     Verdadeiro    |     Verdadeiro    |     Verdadeiro    |
+
+|     A             |     B             |     A e B         |
+|-------------------|-------------------|-------------------|
+|     Falso         |     Falso         |     Falso         |
+|     Falso         |     Verdadeiro    |     Falso         |
+|     Verdadeiro    |     Falso         |     Falso         |
+|     Verdadeiro    |     Verdadeiro    |     Verdadeiro    |
+
+Observe que, para a tabela verdade da expressão A OU B, basta que uma das variáveis lógicas tenha o valor "Verdadeiro" para que o valor da expressão A OU B seja considerado "Verdadeiro". Assim, no caso da alternativa, bastaria que a primeira condição fosse verdadeira (no caso, salário superior a R$1.045,00) para que toda a expressão lógica (a condição do comando "se") fosse considerada verdadeira. Essa seria a situação para um salário igual a R$1.800,00. Mas esse valor é maior que o limite superior de R$1.545,00, o que significa que o programa funcionaria de forma errada. O mesmo pode ser dito para a alternativa com os valores de salário de R$1.045,00 e R$1.544,00. Dessa forma, podemos afirmar que ambas as alternativas são incorretas. Note também que os valores de limite da alternativa D estão incorretos.
+
+C – Alternativa incorreta.
+JUSTIFICATIVA. A alternativa apresenta um problema diferente: ainda que as condições estejam corretas, o programa (ou algoritmo) do enunciado não tem nenhuma variável chamada de "valor". Assim, um computador, ao tentar executar o comando "se", não teria conhecimento de nenhuma variável chamada "valor" e abortaria a execução do programa. Se o mesmo algoritmo fosse escrito em uma linguagem compilada, como, por exemplo, a linguagem C, o programa nem seria compilado com sucesso, uma vez que a variável "valor" não foi declarada previamente. No caso do algoritmo do enunciado, observe que não há nenhuma variável "valor" declarada na linha 3. 
+
+E – Alternativa incorreta.
+JUSTIFICATIVA. Além da ausência da declaração da variável "valor", descrita na alternativa D, ambos os limites utilizados no comando "se" estão errados.
+
+:::
+
+### Resposta: 
+
+- Alternativa "A"

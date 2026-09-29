@@ -59,3 +59,4 @@ JUSTIFICATIVA. O ITIL é um framework destinado à melhoria da prestação de se
 
 ## Referências:
 ROSA, F. *Avaliação sobre as melhores práticas e estudo de migração para ITIL V3*. Disponível em [http://repositorio.roca.utfpr.edu.br/jspui/bitstream/1/636/1/MD_COADS_2011_2_01.pdf](http://repositorio.roca.utfpr.edu.br/jspui/bitstream/1/636/1/MD_COADS_2011_2_01.pdf). Acesso em 20 jul. 2020 (com adaptações).
+

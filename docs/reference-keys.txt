@@ -30,7 +30,9 @@ governança-de-ti---alinhamento-estratégico-2
 tomo-7---questão-7
 resposta-5
 referências-1
-revisão-gestão-e-análise-de-dados
+revisão-gestão-e-análise-de-dados-----29092026
+tomo-8---questão-2
+resposta-6
 revisão-computação-em-núvem-aplicada-aos-negócios
 revisão-gestão-ágil-de-projetos
 revisão-gestão-ágil-de-projetos-1
