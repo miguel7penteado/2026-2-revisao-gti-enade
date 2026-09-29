@@ -93,3 +93,13 @@ JUSTIFICATIVA. Além da ausência da declaração da variável "valor", descrita
 ### Resposta: 
 
 - Alternativa "A"
+
+## Referências:
+
+AGUILAR, J. L. Fundamentos de programação: algoritmos, estrutura de dados e objetos. Porto Alegre: AMGH, 2011.
+ARAUJO, S. Lógica de programação e algoritmos. Curitiba: Contentus, 2020.
+CORMEN, T.H. et al. Algoritmos: teoria e prática. Rio de Janeiro: Elsevier, 2002.
+DASGUPTA, S.; PAPADIMITRIOU, C.; VAZIRANI, U. Algoritmos. Porto Alegre: AMGH, 2010.
+FEOFILOFF, P. Projetos de algoritmos (em C). 2018. Disponível em <https://www.ime.usp.br/~pf/algoritmos/>. Acesso em 21 jun. 2026.
+KNUTH, D. E. The art of computer programming: fundamental algorithms. 3. ed. v. 1. Boston: Addison-Wesley, 1997.
+
