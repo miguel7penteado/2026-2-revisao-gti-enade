@@ -22,10 +22,10 @@ resposta-3
 justificativa-3
 revisão-gestão-da-segurança-da-informação---08092026
 governança-de-ti---alinhamento-estratégico-1
-tomo-6---questão-7-1
+tomo-7---questão-2
 resposta-4
 referências-bibliográficas
-revisão-governança-da-informação-e-da-tecnologia---08092026
+revisão-governança-da-informação-e-da-tecnologia---15092026
 governança-de-ti---alinhamento-estratégico-2
 tomo-7---questão-7
 resposta-5
@@ -33,6 +33,7 @@ referências-1
 revisão-gestão-e-análise-de-dados-----29092026
 tomo-8---questão-2
 resposta-6
+referências-2
 revisão-computação-em-núvem-aplicada-aos-negócios
 revisão-gestão-ágil-de-projetos
 revisão-gestão-ágil-de-projetos-1
