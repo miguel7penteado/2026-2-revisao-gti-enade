@@ -1,1 +1,86 @@
-# Revisão Gestão Ágil de Projetos
+# Revisão Gestão Ágil de Projetos- 20/10/2026
+
+#### TOMO 9 - Questão 5
+
+Leia o texto a seguir:
+
+::: {.alert .alert-info}
+A ISO/IEC/IEEE 14764:2022 fornece orientações para a manutenção de software, com base no processo de manutenção definido na ISO/IEC/IEEE 12207:2017. A norma detalha o processo de manutenção, estabelece definições para os vários tipos de manutenção e esclarece que não trata da operação de software nem de funções operacionais, como backup, recuperação e administração de sistemas, normalmente executadas por quem opera o software.
+
+_Adaptado de ISO/IEC/IEEE. ISO/IEC/IEEE 14764:2022: Software engineering — Software life cycle processes — Maintenance. Geneva: ISO, 2022._
+
+Considerando os tipos de manutenção de software e as atividades do processo de manutenção, avalie as afirmativas.
+
+|      |                                                                                                                                                                                               |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| I.   | O mantenedor deve desenvolver, documentar e executar planos e procedimentos para realizar as atividades e tarefas do processo de manutenção.                                                  |
+| II.  | O mantenedor deve alterar a configuração do sistema para corrigir erros identificados pelos usuários usando a manutenção perfectiva.                                                          |
+| III. | O mantenedor deve estabelecer procedimentos para receber, registrar e rastrear solicitações de modificação e registros de problemas dos usuários, bem como prover realimentação aos usuários. |
+| IV.  | O mantenedor deve documentar a estratégia a ser usada para melhorar a manutenibilidade futura do sistema, usando a manutenção corretiva.                                                      |
+
+:::
+
+É correto apenas o que se afirma em
+
+
+|    |           |
+|----|-----------|
+| A. | I.        |
+| B. | II.       |
+| C. | I e III.  |
+| D. | II e IV.  |
+| E. | III e IV. |
+
+**Avaliação da Questão:**
+
+::: alert-warning
+
+Manutenção de software
+	
+A manutenção de software compreende as atividades realizadas após a entrega de um produto de software com os objetivos de:
+
+- corrigir as falhas;
+- adaptar o sistema às mudanças no ambiente;
+- melhorar o desempenho do sistema;
+- aperfeiçoar as funcionalidades;
+- de reduzir a possibilidade de problemas futuros.
+
+Trata-se de um processo essencial do ciclo de vida do software, pois sistemas em operação precisam continuar atendendo aos requisitos dos usuários, às condições técnicas do ambiente e às necessidades da organização.
+Podemos classificar a manutenção de softwares em:
+
+- corretiva;
+- adaptativa;
+- perfectiva;
+- preventiva.
+
+A manutenção corretiva é realizada para corrigir eventuais defeitos identificados no software. A manutenção adaptativa ocorre quando o software precisa ser modificado para continuar funcionando em um ambiente alterado, como ocorre, por exemplo, em mudanças nos sistemas operacionais, nas plataformas, nas regras externas ou na infraestrutura tecnológica. A manutenção perfectiva envolve as melhorias de desempenho, de usabilidade, de funcionalidade ou de outros atributos do produto. A manutenção preventiva busca reduzir a probabilidade de falhas futuras, melhorar a manutenibilidade e, também, evitar a deterioração técnica do software.
+A norma ISO/IEC/IEEE 14764:2022 fornece uma orientação para a gestão da manutenção de software e articula-se ao processo de manutenção descrito na norma ISO/IEC/IEEE 12207:2017.
+Em termos práticos, a manutenção exige o planejamento, o registro e o rastreio de solicitações, a análise de impacto, a aprovação de mudanças, a implementação, os testes, a revisão, a aceitação do produto e o controle das alterações realizadas.
+
+Portanto
+
+Resumo:
+
+- **I – Correta:** a manutenção deve ser planejada, controlada, documentada e rastreável.
+- **II – Incorreta:** corrigir erros relatados por usuários é **manutenção corretiva**; a **perfectiva** busca melhorias de funcionalidade, desempenho ou usabilidade.
+- **III – Correta:** registrar, acompanhar e rastrear solicitações e problemas é essencial para controlar a manutenção.
+- **IV – Incorreta:** melhorar a manutenibilidade futura está ligado principalmente à **manutenção preventiva**, enquanto a corretiva trata falhas já identificadas.
+
+:::
+
+### Resposta: 
+
+- Alternativa "C"
+
+## Referências
+
+- ISO/IEC/IEEE. ISO/IEC/IEEE 14764:2022: Software engineering — Software life cycle processes — Maintenance. Geneva: ISO, 2022.
+
+- ISO/IEC/IEEE. ISO/IEC/IEEE 12207:2017: Systems and software engineering — Software life cycle processes. Geneva: ISO, 2017.
+
+- IEEE COMPUTER SOCIETY. Guide to the Software Engineering Body of Knowledge (SWEBOK Guide). Version 4.0. Los Alamitos: IEEE Computer Society, 2024.
+
+- PRESSMAN, R. S.; MAXIM, B. R. Engenharia de software: uma abordagem profissional. 9. ed. Porto Alegre: Bookman, 2021.
+
+- SOMMERVILLE, I. Engenharia de software. 10. ed. São Paulo: Pearson, 2019.
+
