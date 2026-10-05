@@ -1,1 +1,57 @@
-# Revisão Computação em Núvem Aplicada aos Negócios
+# Revisão Computação em Núvem Aplicada aos Negócios - 06/10/2026
+
+#### TOMO 8 - Questão 7
+
+::: {.alert .alert-info}
+Um empreendedor, com o auxílio de um tecnólogo em gestão da tecnologia da informação, precisa definir um sistema operacional que ofereça suporte adequado ao aplicativo inovador a ser desenvolvido, que alavancará os negócios da startup. O objetivo é atingir o máximo de usuários possíveis e conseguir alto desempenho de processamento em dispositivos móveis. Ao pesquisar na internet, encontrou a seguinte notícia de um fabricante:
+“Entre as novidades, o sistema operacional ABC para dispositivos móveis terá, entre outros recursos, nova página inicial e nova tela de bloqueio, que é ligada assim que o aparelho é suspenso.
+Houve mudança, também, no app de fotos, que ficou mais inteligente, sendo capaz de reconhecer rostos e de mostrar imagens em um mapa. No app de mensagens passou a ser possível enviar textos escritos à mão e desenhos animados.
+A empresa abriu o seu assistente de linguagem natural para desenvolvedores externos. Assim, será possível solicitar carro nos aplicativos mais conhecidos, publicar foto nos apps mais populares, fazer chamada no Skype por comando de voz e enviar mensagens usando apps como WeChat ou WhatsApp. Também será possível fazer buscas por fotos, documentos, músicas e outros arquivos por comando de voz".
+
+Disponível em <http://veja.abril.com.br/tecnologia>. Acesso em 3 jul. 2017 (com adaptações).
+:::
+
+::: {.alert .alert-info}
+Como indica a notícia, o ABC possibilitará novas oportunidades de desenvolvimento de aplicativos com interfaces mais naturais e imediatas, mostrando-se ideal para os negócios da startup. Analisando as características técnicas, o tecnólogo afirmou, corretamente, que o sistema operacional ABC
+:::
+
+|   |                                                                                                                                                                                                   |
+|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A | Teve suas funções básicas ampliadas em seu kernel, possibilitando uma maior capacidade de processamento dos aplicativos independente da arquitetura do dispositivo.                               |
+| B | Teve sua capacidade natural ampliada em função das mudanças no app de fotos, com isto o seu kernel passou a executar menos processos tornando o dispositivo mais rápido.                          |
+| C | Sofreu alteração na camada de apresentação, sua nova página inicial é tratada por um ou mais processos e seu kernel continua sendo responsável por escalonar os processos dos aplicativos.        |
+| D | Sofreu mudanças significativas em seu kernel, que passou a residir em um dispositivo fora da memória, com isso, pode haver mais processos em execução, deixando o dispositivo mais rápido.        |
+| E | Teve as funções do kernel reduzidas, assim os processos relativos à gerência de memória não são mais tratados pelo módulo de escalonamento, o que deixa o desempenho do dispositivo muito melhor. |
+
+**Avaliação da Questão: **
+
+::: {.alert-warning}
+A questão aborda a arquitetura de sistemas operacionais e a separação de responsabilidades entre as camadas do sistema (Apresentação vs. Kernel/Núcleo):
+
+- Camada de Apresentação (Interface com o Usuário):
+As novidades citadas na notícia (nova página inicial, tela de bloqueio, mudanças na interface do app de fotos e de mensagens) referem-se a alterações na camada visual/de apresentação do sistema operacional. Essas mudanças afetam a interface com o usuário e dependem de processos em nível de usuário (user space).
+
+- Papel do Kernel (Núcleo):
+O kernel do sistema operacional continua com suas atribuições fundamentais intactas, tais como gerenciar a memória, a comunicação com o hardware e o escalonamento de processos. A interface gráfica não altera a lógica interna básica de escalonamento do kernel.
+
+A (Incorreta): A capacidade de processamento depende diretamente do hardware/arquitetura e da eficiência dos algoritmos, e não apenas de ampliar funções no kernel.
+
+B (Incorreta): A inteligência no app de fotos é um recurso de aplicação no espaço de usuário; ela não reduz os processos do kernel nem altera suas funções estruturais para deixá-lo mais rápido.
+
+C (Correta): As mudanças visuais descritas tratam da camada de apresentação, cujas tarefas rodam como processos do sistema, enquanto o kernel mantém sua função fundamental de escalonar e gerenciar esses processos.
+
+D (Incorreta): O kernel precisa residir em memória RAM para ser executado de forma imediata e gerenciar o sistema; ele não reside fora da memória durante a execução.
+
+E (Incorreta): O módulo de escalonamento lida com o tempo de CPU atribuído aos processos, enquanto a gerência de memória lida com a alocação de RAM. O kernel não abandona a gerência de memória para melhorar o desempenho.
+
+:::
+
+### Resposta: 
+
+- Alternativa "C"
+
+
+## Referências
+- SILBERSCHATZ, A.; GALVIN, P. B.; GAGNE, G. Fundamentos de sistemas operacionais. 10. ed. Rio de Janeiro: LTC, 2020.
+- STALLINGS, W. Operating systems: internals and design principles. 9. ed. Hoboken: Pearson, 2018. 
+- TANENBAUM, A. S.; BOS, H. Sistemas operacionais modernos. 4. ed. São Paulo: Pearson, 2016.
